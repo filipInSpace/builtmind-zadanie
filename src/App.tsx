@@ -1,4 +1,3 @@
-import './App.css';
 import ItemList from './components/ItemList';
 import AddItemForm from './components/AddItemForm';
 import { Provider } from 'react-redux';

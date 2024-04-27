@@ -39,7 +39,9 @@ const ItemList = () => {
                   value={editingItem.body}
                   onChange={(e) => setEditingItem({ ...editingItem, body: e.target.value })}
                 />
-                <button className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-400" type="submit">Submit</button>
+                <div className="flex flex-col items-center">
+                  <button className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-400" type="submit">Submit</button>
+                </div>
               </form>
             ) : (
               <>
